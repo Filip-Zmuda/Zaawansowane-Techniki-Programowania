@@ -1,0 +1,22 @@
+# ninja log v5
+0	187	1712226011047799172	build.ninja	d8010562a48f53cc
+416	541	1712224594551627671	lista2_googletest	52e042bb62bb6809
+2	1551	1712225613812150172	CMakeFiles/lista2_googletest.dir/main.cpp.o	4e1728f648ff06a0
+2	2272	1712226020539788332	CMakeFiles/lista2_googletest.dir/main.cpp.o	cb2c0b3b0a12098c
+3	2439	1712226020711788135	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	fcb455d94f29cd8e
+2	7158	1712226025419782735	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	2ac716e923e1bea3
+7159	7259	1712226025523782615	lib/libgtest.a	f86cc4b70bcd50cd
+7259	7268	1712226025539782598	lib/libgtest_main.a	b25c33eb2eac0158
+7268	7523	1712226025791782308	lista2_googletest	1c1c02bdf2bd81b8
+2	1675	1712226295303454998	CMakeFiles/lista2_googletest.dir/main.cpp.o	cb2c0b3b0a12098c
+1675	1947	1712226295575454654	lista2_googletest	1c1c02bdf2bd81b8
+2	1657	1712226342831394826	CMakeFiles/lista2_googletest.dir/main.cpp.o	cb2c0b3b0a12098c
+1657	1913	1712226343087394501	lista2_googletest	1c1c02bdf2bd81b8
+2	1785	1712226414055196283	CMakeFiles/lista2_googletest.dir/main.cpp.o	cb2c0b3b0a12098c
+1786	2064	1712226414335195458	lista2_googletest	1c1c02bdf2bd81b8
+1	1696	1712226465543048041	CMakeFiles/lista2_googletest.dir/main.cpp.o	cb2c0b3b0a12098c
+1696	1955	1712226465799047322	lista2_googletest	1c1c02bdf2bd81b8
+2	1636	1712226508974928236	CMakeFiles/lista2_googletest.dir/main.cpp.o	cb2c0b3b0a12098c
+1636	1891	1712226509230927543	lista2_googletest	1c1c02bdf2bd81b8
+2	1683	1712226750430321394	CMakeFiles/lista2_googletest.dir/main.cpp.o	cb2c0b3b0a12098c
+1683	1962	1712226750706320291	lista2_googletest	1c1c02bdf2bd81b8
