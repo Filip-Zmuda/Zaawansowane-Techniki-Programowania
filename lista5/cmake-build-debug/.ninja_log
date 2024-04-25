@@ -1,0 +1,9 @@
+# ninja log v5
+1	373	1714041422521543774	CMakeFiles/lista5.dir/CoolingSystemMock.cpp.o	ba80c30980398bec
+389	502	1714041670748902987	lista5	27970a87e0804ffc
+2	389	1714041670636903270	CMakeFiles/lista5.dir/FusionReactor.cpp.o	bb3207a92f71955e
+2	394	1714041573621150747	CMakeFiles/lista5.dir/NuclearReactor.cpp.o	647f6c22ee7f82e4
+1	386	1714041670632903281	CMakeFiles/lista5.dir/main.cpp.o	7717ab3c65f6ade8
+1	38	1714041422189544648	CMakeFiles/lista5.dir/CoolingSystem.cpp.o	fe8e8bccd8a6d09e
+1	383	1714041731876748803	CMakeFiles/lista5.dir/main.cpp.o	7717ab3c65f6ade8
+383	493	1714041731988748521	lista5	27970a87e0804ffc
