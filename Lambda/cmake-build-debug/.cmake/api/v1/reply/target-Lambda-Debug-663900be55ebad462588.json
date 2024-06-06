@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "vector"
+			"path" : "Lambda.exe"
+		},
+		{
+			"path" : "Lambda.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -53,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "vector::@6890427a1f51a3e7e1df",
+	"id" : "Lambda::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -65,12 +68,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "vector",
-	"nameOnDisk" : "vector",
+	"name" : "Lambda",
+	"nameOnDisk" : "Lambda.exe",
 	"paths" : 
 	{
 		"build" : ".",

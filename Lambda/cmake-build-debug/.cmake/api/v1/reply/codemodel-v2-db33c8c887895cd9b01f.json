@@ -6,10 +6,10 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.26"
+						"string" : "3.27"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "vector",
+					"name" : "Lambda",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "vector::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-vector-Debug-a41f3bd308f61c7abd34.json",
-					"name" : "vector",
+					"id" : "Lambda::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lambda-Debug-663900be55ebad462588.json",
+					"name" : "Lambda",
 					"projectIndex" : 0
 				}
 			]
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/c/263631/ztp-filip_zmuda/vector/cmake-build-debug",
-		"source" : "/home/c/263631/ztp-filip_zmuda/vector"
+		"build" : "C:/Users/filip/Documents/studia dell/6 semestr/zaawansowane techniki programowania/ztp-filip_zmuda/Lambda/cmake-build-debug",
+		"source" : "C:/Users/filip/Documents/studia dell/6 semestr/zaawansowane techniki programowania/ztp-filip_zmuda/Lambda"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 5
+		"minor" : 6
 	}
 }
