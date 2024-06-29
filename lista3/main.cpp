@@ -1,46 +1,31 @@
 #include <iostream>
 #include <string>
 
-class Osoba{
+class Osoba {
 public:
     std::string imie;
-	Osoba(const std::string& imie) : imie(imie) {}
+    Osoba(const std::string& imie) : imie(imie) {}
 
-	virtual void info(){
-		std::cout << imie << std::endl;
-	}
+    void niewirtualnaInfo() {
+        std::cout << imie << std::endl;
+    }
+
+    virtual void wirtualnaInfo() {
+        std::cout << imie << std::endl;
+    }
 };
 
-//class Student : public Osoba{
-//    int indeks;
-//public:
-//	Student(const std::string& imie, int indeks) : Osoba(imie), indeks(indeks) {}
-//
-//	int indeks;
-//	void info override(){
-//		std::cout << imie << std::endl;
-//		std::cout << indeks << std::endl;
-//	}
-//};
-
-void foo (Osoba *p){
-p->info();
+void wywolajNiewirtualna(Osoba *p) {
+    p->niewirtualnaInfo();
 }
 
-int main(){
-//srand(time(NULL));
-Osoba o ("Jan");
-//Student s ("Adam",12345);
+void wywolajWirtualna(Osoba *p) {
+    p->wirtualnaInfo();
+}
 
-//o.info();
-
-//Osoba *op;
-//Student *sp;
-
-//if(rand()%2)
-//	op = &o;
-//else
-//	op = &s;
-//
-foo(&o);
+int main() {
+    Osoba o("Jan");
+    wywolajNiewirtualna(&o);
+    wywolajWirtualna(&o);
+    return 0;
 }
